@@ -28,7 +28,9 @@
 
     <div class="content-wrapper">
 
-      <a href="#"><img src="img/unpluggedlogo.png" alt="unplugged-logo"/></a>
+      <a href="#">
+        <img src="img/unpluggedlogo.png" alt="unplugged-logo"/>
+      </a>
       
       <div class="header-divider"></div>
 
@@ -39,17 +41,6 @@
         </ul>
       </nav>
 
-      <div class="header-img">
-        <div>
-          
-          <h1 class="catchline">
-            Retreat from your desk, return refreshed.
-          </h1>
-
-          <img src="img/hero-img-jake-melara-30679-unsplash.jpg" alt="unplugged-outdoor-img"/>
-
-        </div>
-      </div>
     </div>
 
   </header>
@@ -57,9 +48,25 @@
   <main class="main-wrapper flex-container">
 
     <section>
-      <div class="newsletter">
+      <div class="hero-area">
+        <div class="content-wrapper">          
+          <h1>
+            Retreat from your desk, return refreshed.
+          </h1>
+        </div>
 
-        <div class="download-itinerary">
+        <div class="hero-image">
+          <img src="img/hero-img-jake-melara-30679-unsplash.jpg" alt="unplugged-outdoor-img"/>
+        </div>
+
+      </div>
+    </section> 
+
+<!--WHY ASIDE RATHER TAHN ANOTHER SECTION FOR THE NEWLETTER IF IT IS NEVER ALONE ALONG THE SIDE?-->
+    <section>
+      <div class="content-wrapper">
+
+        <div class="form-description">
           <h3>
             Want to join the next retreat?
           </h3>
@@ -73,16 +80,22 @@
             Find out more
           </h3>
           <!--TO DO= EMAIL ENTER SECTION AND TEXT WITHIN NEED TO BE DONE BUT DON'T KNOW HOW yet-->
-          <button type="button">DOWNLOAD ITINERARY</button>
+          <input type="text" name="name" value="email address">
+          <button type="button" value="Download Itinerary">DOWNLOAD ITINERARY</button>
 
         </div>
 
-      </div>
+      </div><!--content wrapper ends-->
 
     </section>
 
 
     <section class="ammenitites">
+
+      <a href="#">
+        <img src="img/background-img-rawpixel-800820-unsplash1.jpg" alt="group-faded-background-behind-ameninities">
+      </a>
+
       <div class="wrapper">
         <h2>Have the work week you always dreamed of &mdash; without the bad wifi.</h2>
 
@@ -147,29 +160,40 @@
       </div>
     </section>
 
-  </main>
+  </main> <!--main wrapper ends-->
 
 
   <footer>
-
-    <div class="footer-content">
-      <div class="contact">
-        <h4>
-          Contact
-        </h4>
-        <p class="phone">555-555-5555</p>
-        <p class="email">hello@unplugged.com</p>
+    <div class="content-wrapper">
+      <div class="footer-content">
+        <div class="contact">
+          <h4>
+            Contact
+          </h4>
+          <address class="phone">
+            <p>
+              555-555-5555
+            </p>
+            <br>
+            <p>
+              hello@unplugged.com
+            </p>
+          </address>
+        </div>
+  
+        <div class="social">
+          <h4>
+            Social
+          </h4>
+            <ul><!--facebook - twitter - instagam-->
+              <!--NEED IMG   -->    
+              <li><a href="https://www.facebook.com/"><img src="" alt="facebook-icon"/></a></li>    
+              <!--NEED IMG <li><img src="" /></li>  --> 
+              <a href="http://twitter.com/"><img src="" alt="twitter-icon"/></a>
+              <!--NEED IMG <li><img src="/></li>   --> 
+              <a href="https://www.instagram.com/"><img src="" alt="instagram-icon"/></a>
+            </ul>
       </div>
-
-      <div class="social">
-        <h4>
-          Social
-        </h4>
-          <ul><!--facebook - twitter - instagam-->
-            <!--NEED IMG <li><img src="/></li>  -->        
-            <!--NEED IMG <li><img src="" /></li>  --> 
-            <!--NEED IMG <li><img src="/></li>   --> 
-          </ul>
       </div>
     </div> <!--footer content-wrapper ends-->
 
