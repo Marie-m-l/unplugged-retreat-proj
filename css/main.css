@@ -87,7 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
    
-   /*--------Base Styles for Header & Footer--------*/
+   /*--------BASE STYLES for Header & Footer--------*/
    /*Same for home,  about, and faq pgs*/
    header, 
    footer {
@@ -142,7 +142,7 @@ textarea {
    }
 
    .social address {
-     
+
    }
 
    .social-icons {
@@ -150,6 +150,111 @@ textarea {
    }
 
    /*--------HOME--------*/
+   body.flex-container {
+
+   }
+
+   /*-----Main-----*/
+   main.main-wrapper.flex-container {
+
+   }
+   
+   /*---Hero Area---*/
+   section.hero-area .content-wrapper{
+
+   }
+
+   section .content-wrapper h1 {
+
+   }
+
+   section.hero-img {
+
+   }
+   
+   /*---Aside---*/
+   aside .content-wrapper {
+
+   }
+
+   aside .content-wrapper .form-description {
+
+   }
+
+   aside h3 {
+
+   }
+
+   aside p {
+
+   }
+
+   aside .form {
+
+   }
+
+   aside .form h3 {
+
+   }
+
+   aside .form input {
+
+   }
+
+   aside .form button {
+
+   }
+
+   /*---Features---*/
+   .features .content-wrapper {
+
+   }
+
+   .features img {
+
+   }
+
+   .features .flex-container {
+
+   }
+
+   .features h2 {
+
+   }
+
+   .features-item-description {
+
+   }
+
+   /**+ features img/icon specifier once added to html*/
+
+   /*---Reviews---*/
+   .reviews .flex-container {
+
+   }
+
+   .reviews h3 {
+
+   }
+
+   .reviews article {
+
+   }
+
+   .reviews article img {
+
+   }
+
+   .reviews article h4 {
+
+   }
+
+   .reviews article p {
+
+   }
+   
+
+
 
 
 
