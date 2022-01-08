@@ -87,8 +87,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
    
-   /*--------BASE STYLES for Header & Footer--------*/
-   /*Same for home,  about, and faq pgs*/
+   /*!--------BASE STYLES for Header & Footer--------*/
+   /*!Same for home,  about, and faq pgs*/
+   body.flex-container {
+
+   }
+
    header, 
    footer {
 
@@ -101,7 +105,7 @@ textarea {
 
    
    
-   /*--------Header Styles--------*/
+   /*!--------Header Styles--------*/
    /*---Same for home, about, and faq pgs*/
    img.logo {
 
@@ -111,11 +115,12 @@ textarea {
 
    }
 
-   nav, nav ul li {
+   nav, 
+   nav ul li {
 
    }
 
-   /*--------Footer Styles--------*/
+   /*!--------Footer Styles--------*/
    /*---Same for home, about, and faq pgs---*/
    footer.footer-content {
 
@@ -149,17 +154,13 @@ textarea {
 
    }
 
-   /*--------HOME--------*/
-   body.flex-container {
-
-   }
-
-   /*-----Main-----*/
+   /*!--------HOME PAGE--------*/
+   /*!-----Main-----*/
    main.main-wrapper.flex-container {
 
    }
    
-   /*---Hero Area---*/
+   /*!---Hero Area---*/
    section.hero-area .content-wrapper{
 
    }
@@ -172,7 +173,7 @@ textarea {
 
    }
    
-   /*---Aside---*/
+   /*!---Aside---*/
    aside .content-wrapper {
 
    }
@@ -205,7 +206,7 @@ textarea {
 
    }
 
-   /*---Features---*/
+   /*!---Features---*/
    .features .content-wrapper {
 
    }
@@ -228,7 +229,7 @@ textarea {
 
    /**+ features img/icon specifier once added to html*/
 
-   /*---Reviews---*/
+   /*!---Reviews---*/
    .reviews .flex-container {
 
    }
@@ -252,18 +253,65 @@ textarea {
    .reviews article p {
 
    }
+
+   /*!--------ABOUT PAGE--------*/
+   body.flex-container {
+
+   }
+
+   /*!---Main---*/
+   /**possible redundancy // */
+   main.flex-container {
+
+   }
    
+   /*!---Section Mission---*/
+   .mission .content-wrapper{
 
+   }
 
+   .mission h1 {
 
+   }
 
+   .mission-content p {
 
+   }
 
+   /*!---Map---*/
+   .map .content-wrapper {
 
+   }
 
+   .map-content,
+   .map-content figure {
 
+   }
 
+   /*!---Contact---*/
+   .contact-section .content-wrapper {
 
+   }
+
+   .contact-section h2 {
+
+   }
+
+   .contact-section-content {
+
+   }
+
+   /*Address*/
+   .contact-section-content h4 {
+
+   }
+
+   .contact-section-content p {
+
+   }
+
+   /*!--------FAQ PAGE--------*/
+   
 
 
 
