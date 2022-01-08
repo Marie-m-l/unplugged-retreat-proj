@@ -161,6 +161,7 @@ textarea {
    }
    
    /*!---Hero Area---*/
+   /*Section*/
    section.hero-area .content-wrapper{
 
    }
@@ -174,6 +175,7 @@ textarea {
    }
    
    /*!---Aside---*/
+   /*Aside*/
    aside .content-wrapper {
 
    }
@@ -207,6 +209,7 @@ textarea {
    }
 
    /*!---Features---*/
+   /*Section*/
    .features .content-wrapper {
 
    }
@@ -230,6 +233,7 @@ textarea {
    /**+ features img/icon specifier once added to html*/
 
    /*!---Reviews---*/
+   /*Section*/
    .reviews .flex-container {
 
    }
@@ -265,7 +269,8 @@ textarea {
 
    }
    
-   /*!---Section Mission---*/
+   /*!---Mission---*/
+   /*Section*/
    .mission .content-wrapper{
 
    }
@@ -279,6 +284,7 @@ textarea {
    }
 
    /*!---Map---*/
+   /*Section*/
    .map .content-wrapper {
 
    }
@@ -289,6 +295,7 @@ textarea {
    }
 
    /*!---Contact---*/
+   /*Section*/
    .contact-section .content-wrapper {
 
    }
@@ -311,7 +318,30 @@ textarea {
    }
 
    /*!--------FAQ PAGE--------*/
+   /*!---Main---*/
+   .faq {
+
+   }
+
+   .faq .content-wrapper {
+
+   }
+
+   .faq .content-wrapper h2 {
+
+   }
+
+   .faq-content {
+
+   }
+
+   .faq-content h4,
+   .faq-content p {
+
+   }
    
+
+
 
 
 
