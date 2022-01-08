@@ -89,7 +89,7 @@ textarea {
    
    /*!--------BASE STYLES for Header & Footer--------*/
    /*!Same for home,  about, and faq pgs*/
-   body.flex-container {
+   body.flex-container { /**need to look into if this is a flex-container or just an element since the header, footr, and main are flex-containers already*/
 
    }
 
@@ -98,12 +98,15 @@ textarea {
 
    }
 
-   header.content-wrapper, 
-   footer.content-wrapper {
+   header.flex-container, 
+   footer.flex-container {
 
    }
 
-   
+   main.flex-container {
+
+   }
+
    
    /*!--------Header Styles--------*/
    /*---Same for home, about, and faq pgs*/
@@ -122,7 +125,7 @@ textarea {
 
    /*!--------Footer Styles--------*/
    /*---Same for home, about, and faq pgs---*/
-   footer.footer-content {
+   footer.flex-container .footer-content {
 
    }
 
@@ -156,31 +159,28 @@ textarea {
 
    /*!--------HOME PAGE--------*/
    /*!-----Main-----*/
-   main.main-wrapper.flex-container {
-
-   }
    
    /*!---Hero Area---*/
    /*Section*/
-   section.hero-area .content-wrapper{
+   .hero-area .content-wrapper{
 
    }
 
-   section .content-wrapper h1 {
+   .hero-area .content-wrapper h1 {
 
    }
 
-   section.hero-img {
+   .hero-img {
 
    }
    
    /*!---Aside---*/
    /*Aside*/
-   aside .content-wrapper {
+   aside.flex-container {
 
    }
 
-   aside .content-wrapper .form-description {
+   aside.form-description {
 
    }
 
@@ -259,19 +259,11 @@ textarea {
    }
 
    /*!--------ABOUT PAGE--------*/
-   body.flex-container {
-
-   }
-
    /*!---Main---*/
-   /**possible redundancy // */
-   main.flex-container {
-
-   }
-   
+      
    /*!---Mission---*/
    /*Section*/
-   .mission .content-wrapper{
+   .mission .flex-container{
 
    }
 
@@ -285,7 +277,7 @@ textarea {
 
    /*!---Map---*/
    /*Section*/
-   .map .content-wrapper {
+   .map .flex-container {
 
    }
 
@@ -296,7 +288,7 @@ textarea {
 
    /*!---Contact---*/
    /*Section*/
-   .contact-section .content-wrapper {
+   .contact-section .flex-container {
 
    }
 
@@ -323,11 +315,11 @@ textarea {
 
    }
 
-   .faq .content-wrapper {
+   .faq .flex-container {
 
    }
 
-   .faq .content-wrapper h2 {
+   .faq .flex-container h2 {
 
    }
 
