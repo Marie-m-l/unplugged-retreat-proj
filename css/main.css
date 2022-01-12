@@ -90,48 +90,82 @@ textarea {
    /*!--------BASE STYLES for Header & Footer--------*/
    /*!Same for home,  about, and faq pgs*/
    body.flex-container { /**need to look into if this is a flex-container or just an element since the header, footr, and main are flex-containers already*/
-
+    width: 90%;
    }
 
    header, 
    footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+    }
 
+/*header .flex-container, 
+   footer .flex-container?
+   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
-
-   header.flex-container, 
-   footer.flex-container {
-
-   }
-
+*/
    main.flex-container {
-
-   }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+    }
 
    
    /*!--------Header Styles--------*/
    /*---Same for home, about, and faq pgs*/
-   img.logo {
-
-   }
+   header .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+    }
+   
+   header img.logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 100%;
+    }
 
    .header-divider {
 
    }
 
-   nav, 
-   nav ul li {
+   header nav {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-flow: row wrap;
+     width: 100%;
+    }
 
+   header ul {
+     list-style-type: none;
    }
+
+   header nav ul li {
+     display: inline-flex;
+   }
+     
+
 
    /*!--------Footer Styles--------*/
    /*---Same for home, about, and faq pgs---*/
-   footer.flex-container .footer-content {
+   footer .flex-container .footer-content { /**maybe redundancy*/
 
    }
 
    .contact {
-
-   }
+     text-align: center;
+    }
 
    .contact h4 {
 
@@ -142,113 +176,136 @@ textarea {
    }
 
    .social {
+     text-align: center;
+    }
 
-   }
+   .social h4 {}
 
-   .social h4 {
-
-   }
-
-   .social address {
-
-   }
+   .social address {}
 
    .social-icons {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
 
-   }
+   .social-icons p {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
 
    /*!--------HOME PAGE--------*/
    /*!-----Main-----*/
    
    /*!---Hero Area---*/
    /*Section*/
-   .hero-area .content-wrapper{
+   /*? .hero-area .content-wrapper*/
+   section.hero-area {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+    }
 
-   }
+   .hero-area .content-wrapper h1 {}
 
-   .hero-area .content-wrapper h1 {
-
-   }
-
-   .hero-img {
-
-   }
+   .hero-img {}
    
    /*!---Aside---*/
    /*Aside*/
-   aside.flex-container {
+   aside {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+    }
+   /**.flex-container maybe delete*/ 
+   
 
-   }
+   aside.form-description {}
 
-   aside.form-description {
+   aside h3 {}
 
-   }
+   aside p {}
 
-   aside h3 {
+   aside .form {}
 
-   }
+   aside .form h3 {}
 
-   aside p {
-
-   }
-
-   aside .form {
-
-   }
-
-   aside .form h3 {
-
-   }
-
-   aside .form input {
-
-   }
+   aside .form-input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
 
    aside .form button {
-
-   }
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+    }
 
    /*!---Features---*/
    /*Section*/
-   .features .content-wrapper {
-
+    /**determine whether there should be flex-containers or content-wrappers and why that one is correct had this as a content-wrapper and the lower div as a flex-container make sure to // the solution code to see what I should have the different classes correctly named as*/
+   section.features {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
    }
 
-   .features img {
+   .features img {}
 
-   }
+   /*.features .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+   }*/ /**figure out what to do with this*/
 
-   .features .flex-container {
-
-   }
-
-   .features h2 {
-
-   }
+   .features h2 {}
 
    .features-item-description {
-
+     text-align: center;
    }
 
    /**+ features img/icon specifier once added to html*/
-
+/*
+   .features p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+   }
+*/
    /*!---Reviews---*/
    /*Section*/
-   .reviews .flex-container {
-
-   }
+   section.reviews {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+    }
 
    .reviews h3 {
 
    }
-
+/**
    .reviews article {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
-
+*/
    .reviews article img {
 
    }
+
+   /*group img for reviews does need to be centered for mobile*/
 
    .reviews article h4 {
 
@@ -263,8 +320,10 @@ textarea {
       
    /*!---Mission---*/
    /*Section*/
-   .mission .flex-container{
-
+   .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
    .mission h1 {
@@ -277,9 +336,11 @@ textarea {
 
    /*!---Map---*/
    /*Section*/
-   .map .flex-container {
-
-   }
+   .map {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
 
    .map-content,
    .map-content figure {
@@ -288,9 +349,11 @@ textarea {
 
    /*!---Contact---*/
    /*Section*/
-   .contact-section .flex-container {
-
-   }
+   .contact-section {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
 
    .contact-section h2 {
 
@@ -312,14 +375,21 @@ textarea {
    /*!--------FAQ PAGE--------*/
    /*!---Main---*/
    .faq {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
-   .faq .flex-container {
-
+   .faq .flex-container { /*?is this a redundancy?*/  
+    /**was a content-wrapper // solution code to make sure flex-container is okay*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
    }
 
-   .faq .flex-container h2 {
+   .faq h2 {
 
    }
 
