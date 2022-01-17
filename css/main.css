@@ -87,11 +87,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
    
-   /*!--------BASE STYLES for Header & Footer--------*/
+   /*!--------BASE STYLES--------*/
    /*!Same for home,  about, and faq pgs*/
-   body.flex-container { /**need to look into if this is a flex-container or just an element since the header, footr, and main are flex-containers already*/
-    width: 90%;
+   .content-wrapper {
+     width: 90%;
+     margin: 50px 0;
    }
+
+   /*!--------BASE STYLES for Header & Footer--------*/
 
    header, 
    footer {
@@ -101,16 +104,7 @@ textarea {
      flex-flow: row wrap;
     }
 
-/*header .flex-container, 
-   footer .flex-container?
-   {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-   }
-*/
-   main.flex-container {
+   main .content-wrapper {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -119,6 +113,7 @@ textarea {
 
    
    /*!--------Header Styles--------*/
+
    /*---Same for home, about, and faq pgs*/
    header .content-wrapper {
      display: flex;
@@ -147,7 +142,9 @@ textarea {
      width: 100%;
     }
 
-   header ul {
+   header nav ul {
+     display: flex;
+     justify-content: space-around;
      list-style-type: none;
    }
 
@@ -158,8 +155,9 @@ textarea {
 
 
    /*!--------Footer Styles--------*/
+
    /*---Same for home, about, and faq pgs---*/
-   footer .flex-container .footer-content { /**maybe redundancy*/
+   footer .content-wrapper .footer-content { /**maybe redundancy*/
 
    }
 
@@ -183,28 +181,29 @@ textarea {
 
    .social address {}
 
-   .social-icons {
+   footer .social-icons {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+    }
+
+   footer .social-icons p {
      display: flex;
      justify-content: center;
      align-items: center;
     }
-
-   .social-icons p {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    }
-
+  
+    /*------Differences between Pages------*/
+    /*!----------Mobile Styles----------*/
    /*!--------HOME PAGE--------*/
    /*!-----Main-----*/
    
    /*!---Hero Area---*/
+
    /*Section*/
-   /*? .hero-area .content-wrapper*/
-   section.hero-area {
+   .hero-area {
      display: flex;
      justify-content: center;
-     align-items: center;
      flex-flow: row wrap;
     }
 
@@ -213,6 +212,7 @@ textarea {
    .hero-img {}
    
    /*!---Aside---*/
+
    /*Aside*/
    aside {
      display: flex;
@@ -220,7 +220,6 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
     }
-   /**.flex-container maybe delete*/ 
    
 
    aside.form-description {}
@@ -248,9 +247,9 @@ textarea {
     }
 
    /*!---Features---*/
+
    /*Section*/
-    /**determine whether there should be flex-containers or content-wrappers and why that one is correct had this as a content-wrapper and the lower div as a flex-container make sure to // the solution code to see what I should have the different classes correctly named as*/
-   section.features {
+   .features {
      display: flex;
      justify-content: center;
      align-items: center;
@@ -259,18 +258,17 @@ textarea {
 
    .features img {}
 
-   /*.features .flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-   }*/ /**figure out what to do with this*/
+   .features .features-item-description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      text-align: center;
+    }
 
    .features h2 {}
 
-   .features-item-description {
-     text-align: center;
-   }
+
 
    /**+ features img/icon specifier once added to html*/
 /*
@@ -282,11 +280,11 @@ textarea {
    }
 */
    /*!---Reviews---*/
+
    /*Section*/
    section.reviews {
      display: flex;
      justify-content: center;
-     align-items: center;
      flex-flow: row wrap;
     }
 
@@ -319,11 +317,13 @@ textarea {
    /*!---Main---*/
       
    /*!---Mission---*/
+
    /*Section*/
    .mission {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
    }
 
    .mission h1 {
@@ -335,6 +335,7 @@ textarea {
    }
 
    /*!---Map---*/
+
    /*Section*/
    .map {
      display: flex;
@@ -348,11 +349,13 @@ textarea {
    }
 
    /*!---Contact---*/
+
    /*Section*/
    .contact-section {
      display: flex;
      justify-content: center;
      align-items: center;
+     flex-flow: row wrap;
     }
 
    .contact-section h2 {
@@ -373,6 +376,7 @@ textarea {
    }
 
    /*!--------FAQ PAGE--------*/
+
    /*!---Main---*/
    .faq {
     display: flex;
@@ -381,8 +385,7 @@ textarea {
     flex-flow: row wrap;
    }
 
-   .faq .flex-container { /*?is this a redundancy?*/  
-    /**was a content-wrapper // solution code to make sure flex-container is okay*/
+   .faq .content-wrapper { 
     display: flex;
     justify-content: center;
     align-items: center;
