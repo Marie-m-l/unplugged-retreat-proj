@@ -92,7 +92,7 @@ textarea {
    .content-wrapper {
      width: 90%;
      margin: 50px 0;
-   }
+    }
 
    /*!--------BASE STYLES for Header & Footer--------*/
 
@@ -115,6 +115,11 @@ textarea {
    /*!--------Header Styles--------*/
 
    /*---Same for home, about, and faq pgs*/
+   header {
+     padding: 15px 0;
+   }
+
+
    header .content-wrapper {
      display: flex;
      justify-content: center;
@@ -131,7 +136,7 @@ textarea {
     }
 
    .header-divider {
-
+     width: 100%;
    }
 
    header nav {
@@ -139,13 +144,14 @@ textarea {
      justify-content: space-around;
      align-items: center;
      flex-flow: row wrap;
-     width: 100%;
+     width: 60%;
     }
 
    header nav ul {
      display: flex;
      justify-content: space-around;
      list-style-type: none;
+     width: 100%;
    }
 
    header nav ul li {
@@ -157,8 +163,9 @@ textarea {
    /*!--------Footer Styles--------*/
 
    /*---Same for home, about, and faq pgs---*/
-   footer .content-wrapper .footer-content { /**maybe redundancy*/
-
+   footer .content-wrapper {
+     width: 55%;
+     margin: 50px 0;
    }
 
    .contact {
@@ -252,8 +259,11 @@ textarea {
    .features {
      display: flex;
      justify-content: center;
-     align-items: center;
      flex-flow: row wrap;
+   }
+
+   .features article {
+     width: 63%
    }
 
    .features img {}
@@ -288,7 +298,7 @@ textarea {
      flex-flow: row wrap;
     }
 
-   .reviews h3 {
+   .reviews h2 {
 
    }
 /**
@@ -305,8 +315,8 @@ textarea {
 
    /*group img for reviews does need to be centered for mobile*/
 
-   .reviews article h4 {
-
+   .reviews article h3 {
+     width: 55%;
    }
 
    .reviews article p {
