@@ -125,6 +125,7 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     margin: 0;
     }
    
    header img.logo {
@@ -168,8 +169,13 @@ textarea {
      margin: 50px 0;
    }
 
+   footer p {
+     margin: 0;
+   }
+
    .contact {
      text-align: center;
+     margin: 50px 0;
     }
 
    .contact h4 {
@@ -182,6 +188,7 @@ textarea {
 
    .social {
      text-align: center;
+     margin: 40px 60px;
     }
 
    .social h4 {}
@@ -199,6 +206,10 @@ textarea {
      justify-content: center;
      align-items: center;
     }
+
+    .copyright {
+      margin: 20px 0;
+    }
   
     /*------Differences between Pages------*/
     /*!----------Mobile Styles----------*/
@@ -214,7 +225,9 @@ textarea {
      flex-flow: row wrap;
     }
 
-   .hero-area .content-wrapper h1 {}
+   .hero-area .content-wrapper h1 {
+     margin: 50px 0 332px;
+   }
 
    .hero-img {}
    
@@ -263,7 +276,8 @@ textarea {
    }
 
    .features article {
-     width: 63%
+     width: 63%;
+     margin: 30px 0;
    }
 
    .features img {}
@@ -276,8 +290,13 @@ textarea {
       text-align: center;
     }
 
-   .features h2 {}
+   .features h2 {
+     margin: 60px 0,
+   }
 
+   features p {
+     margin: 0;
+   }
 
 
    /**+ features img/icon specifier once added to html*/
@@ -296,10 +315,11 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     margin: 20px 0;
     }
 
    .reviews h2 {
-
+     margin: 50px 30px 30px 0;
    }
 /**
    .reviews article {
@@ -317,6 +337,7 @@ textarea {
 
    .reviews article h3 {
      width: 55%;
+     margin: 20px 0;
    }
 
    .reviews article p {
@@ -334,14 +355,15 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 20px;
    }
 
    .mission h1 {
-
+     margin: 30px 0;
    }
 
    .mission-content p {
-
+     margin: 20px 0;
    }
 
    /*!---Map---*/
@@ -366,10 +388,11 @@ textarea {
      justify-content: center;
      align-items: center;
      flex-flow: row wrap;
+     margin: 20px;
     }
 
    .contact-section h2 {
-
+     margin: 30px 5px 20px 0;
    }
 
    .contact-section-content {
@@ -377,13 +400,9 @@ textarea {
    }
 
    /*Address*/
-   .contact-section-content h4 {
+   .contact-section-content h4 {}
 
-   }
-
-   .contact-section-content p {
-
-   }
+   .contact-section-content p {}
 
    /*!--------FAQ PAGE--------*/
 
@@ -393,26 +412,29 @@ textarea {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 20px;
    }
 
-   .faq .content-wrapper { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+   .faq .content-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
    }
 
    .faq h2 {
-
+     margin-top: 50px;
    }
 
    .faq-content {
-
+     margin: 50px 0;
    }
 
-   .faq-content h4,
-   .faq-content p {
+   .faq-content h4 {}
 
+
+   .faq-content p {
+     margin: 0;
    }
    
 
