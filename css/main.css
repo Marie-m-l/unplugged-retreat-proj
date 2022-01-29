@@ -328,9 +328,7 @@ textarea {
     flex-flow: row wrap;
    }
 */
-   .reviews article img {
-
-   }
+   .reviews article img {}
 
    /*group img for reviews does need to be centered for mobile*/
 
@@ -355,6 +353,8 @@ textarea {
     }
 
    .mission h1 {}
+
+   .mission-content {}
 
    .mission-content p {
      margin: 0;
@@ -427,14 +427,6 @@ textarea {
    .faq-content p {
      margin: 0;
    }
-   
-
-
-
-
-
-
-
 
 
 
@@ -520,15 +512,149 @@ textarea {
   clear: both;
 }
 
-/* ==========================================================================
+/*! ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /*!Tablet Styles*/
+
+  /*General styles*/
+  .content-wrapper {
+    max-width: 640px;
+    margin: 100px 0;
+  }
+
+  /*Header*/
+  header {
+    justify-content: center;
+  }
+
+  header .content-wrapper {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  header .logo {
+    width: 40%;
+  }
+
+  header nav {
+    width: 60%;
+  }
+
+  header nav ul {
+    justify-content: flex-start;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  /*Footer*/
+  footer .content-wrapper {
+    width: 80%;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer .copyright {
+    width: 37%;
+  }
+
+  /*! Home */
+
+  /*Hero Area*/
+
+  /*Aside*/
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 50%;
+    margin: 0;
+  }
+
+  /*Features*/
+  .features article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-basis: 30%;
+  }
+
+  .features .feature-item-description {
+    width: 50%;
+  }
+
+  /*Reviews*/
+  .reviews article {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reviews article div {
+    width: 50%;
+  }
+
+  /*! About */
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .mission-content p {
+    width: 50%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width: 80%;
+  }
+
+  .contact-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  /*! Faq */
+
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 40%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
 }
+
+@media only screen and (min-width: 1200px) {
+  /*!Desktop Styles*/
+}
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
