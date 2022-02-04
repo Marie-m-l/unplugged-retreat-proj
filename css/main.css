@@ -654,7 +654,100 @@ textarea {
   /*!Desktop Styles*/
 
   /*General Styles*/
+  .content-wrapper {
+    max-width: 960px;
+    margin: 0 120px;
+  }
+
+  /*Header*/
+  header.content-wrapper {
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    width: 17%;
+    display: flex;
+  }
+
+  /*Footer*/
+  footer.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 100px 60px;
+  }
+
+  .contact {
+    padding-right: 225px;
+    text-align: center;
+    width: 30%;
+  }
+
+  footer h4 {
+    padding-bottom: 40px;
+  }
   
+  .social {
+    padding-left: 225px;
+    text-align: center;
+    width: 22%;
+  }
+
+  .copyright {
+    display: flex;
+    margin-bottom: 10px;
+    width: 26%;
+  }
+
+  /*! Home */
+  /*Aside*/
+  aside.content-wrapper {
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+  }
+
+  aside.form-description,
+  .form {
+    width: 40%;
+    justify-content: space-between;
+  }
+
+  .form-description {
+    padding-right: 90px;
+  }
+
+  .form {
+    padding-left: 90px; 
+  }
+
+  /*Features*/
+  .features h2 {
+    width: 89%;
+    padding-right: 120px;
+  }
+
+  .features-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+  }
+
+  .features-item-description {
+    width: 23%;
+    padding: 90px 125px;
+  }
+
+  /*Reviews*/
+  reviews h2 {
+    width: 76%;
+    
+  }
 }
 
 
