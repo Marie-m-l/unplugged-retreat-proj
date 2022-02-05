@@ -746,7 +746,116 @@ textarea {
   /*Reviews*/
   reviews h2 {
     width: 76%;
-    
+    padding-right: 230px;
+  }
+
+  #review-example {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+    padding: 80px 0 90px 0;
+  }
+
+  #review-img {
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  #review-content {
+    padding: 0 30px;
+  }
+
+  /*! About */
+  /*Mission*/
+  .mission {
+    margin: 100px 0;
+  }
+
+  .mission h1 {
+    padding-right: 90px;
+  }
+
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+  }
+
+  .mission-content p#one {
+    padding-right: 50px;
+  }
+
+  .mission-content p#two {
+    padding: 0 10px 0 30px;
+  }
+
+  /*Contact-Section*/
+  .contact-section {
+    margin: 100px 0;
+  }
+
+  .contact-section h2 {
+    padding-right: 30px;
+  }
+
+  .contact-section-content {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+  }
+
+  .left-section {
+    padding-right: 30px;
+  }
+
+  .contact-section-content h4 {
+    padding-right: 40px 0;
+  }
+
+  .right-section {
+    padding-left: 30px;
+  }
+
+  .right-section h4 {
+    padding: 0 110px;
+  }
+
+  address {
+    padding-right: 220px;
+  }
+
+  /*! Faq */
+  .faq {
+    margin: 100px 0;
+  }
+
+  .faq h2 {
+    padding-right: 288px;
+  }
+
+  .faq-content {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding-top: 40px;
+  }
+
+  .faq-content h4 {
+    padding-bottom: 20px;
+  }
+
+  #question-one {
+   padding-bottom: 60px; 
+  }
+
+  #question-one,
+  #question-three {
+    padding-right: 50px;
+  }
+
+  #question-two,
+  #question-four {
+    padding: 0 20px 0 30px;
   }
 }
 
