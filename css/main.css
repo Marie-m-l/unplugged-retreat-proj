@@ -550,26 +550,6 @@ textarea {
     display: none;
   }
 
-  /*Footer*/
-  footer .content-wrapper {
-    width: 65%;
-    margin: 100px 0;
-  }
-
-  .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  footer .contact {
-    margin-bottom: 0;
-  }
-
-  footer .copyright {
-    width: 100%;
-  }
-
   /*! Home */
 
   /*Hero Area*/
@@ -598,7 +578,7 @@ textarea {
   }
 
   .features .feature-item-description {
-    width: 50%;
+    width: 62%;
   }
 
   /*Reviews*/
@@ -610,6 +590,27 @@ textarea {
   .reviews article div {
     width: 49%;
   }
+  
+  /*Footer*/
+  footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer .copyright {
+    width: 100%;
+  }
+
 
   /*! About */
 
@@ -636,6 +637,10 @@ textarea {
 
   /*! Faq */
 
+  header {
+    padding: 15px 0;
+  }
+
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -656,207 +661,50 @@ textarea {
   /*General Styles*/
   .content-wrapper {
     max-width: 960px;
-    margin: 0 120px;
-  }
-
-  /*Header*/
-  header.content-wrapper {
-    width: 100%;
-    margin: 40px 0;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  nav {
-    width: 17%;
-    display: flex;
-  }
-
-  /*Footer*/
-  footer.content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    padding: 100px 60px;
-  }
-
-  .contact {
-    padding-right: 225px;
-    text-align: center;
-    width: 30%;
-  }
-
-  footer h4 {
-    padding-bottom: 40px;
-  }
-  
-  .social {
-    padding-left: 225px;
-    text-align: center;
-    width: 22%;
-  }
-
-  .copyright {
-    display: flex;
-    margin-bottom: 10px;
-    width: 26%;
   }
 
   /*! Home */
+  /*Hero*/
+  .hero-area h1 {
+    width: 60%;
+  }
+
   /*Aside*/
   aside.content-wrapper {
-    width: 83%;
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 80px;
+    justify-content: space-around;
   }
 
-  aside.form-description,
-  .form {
-    width: 40%;
-    justify-content: space-between;
-  }
-
-  .form-description {
-    padding-right: 90px;
-  }
-
-  .form {
-    padding-left: 90px; 
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 30%;
   }
 
   /*Features*/
   .features h2 {
-    width: 89%;
-    padding-right: 120px;
+    width: 90%;
   }
 
-  .features-items {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: space-around;
-  }
-
-  .features-item-description {
-    width: 23%;
-    padding: 90px 125px;
+  .features article {
+    flex-basis: 33%;
   }
 
   /*Reviews*/
-  reviews h2 {
-    width: 76%;
-    padding-right: 230px;
+  .reviews article {
+    width: 42%;
   }
-
-  #review-example {
-    display: flex;
-    justify-content: flex-start;
-    flex-flow: row nowrap;
-    padding: 80px 0 90px 0;
-  }
-
-  #review-img {
-    width: 50%;
-    padding-right: 20px;
-  }
-
-  #review-content {
-    padding: 0 30px;
-  }
-
+  
   /*! About */
   /*Mission*/
-  .mission {
-    margin: 100px 0;
-  }
-
-  .mission h1 {
-    padding-right: 90px;
-  }
-
-  .mission-content {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-  }
-
-  .mission-content p#one {
-    padding-right: 50px;
-  }
-
-  .mission-content p#two {
-    padding: 0 10px 0 30px;
-  }
-
-  /*Contact-Section*/
-  .contact-section {
-    margin: 100px 0;
-  }
-
-  .contact-section h2 {
-    padding-right: 30px;
-  }
-
-  .contact-section-content {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-  }
-
-  .left-section {
-    padding-right: 30px;
-  }
-
-  .contact-section-content h4 {
-    padding-right: 40px 0;
-  }
-
-  .right-section {
-    padding-left: 30px;
-  }
-
-  .right-section h4 {
-    padding: 0 110px;
-  }
-
-  address {
-    padding-right: 220px;
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
   }
 
   /*! Faq */
-  .faq {
-    margin: 100px 0;
-  }
-
   .faq h2 {
-    padding-right: 288px;
+    width: 100%;
   }
-
-  .faq-content {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-    padding-top: 40px;
-  }
-
-  .faq-content h4 {
-    padding-bottom: 20px;
-  }
-
-  #question-one {
-   padding-bottom: 60px; 
-  }
-
-  #question-one,
-  #question-three {
-    padding-right: 50px;
-  }
-
-  #question-two,
-  #question-four {
-    padding: 0 20px 0 30px;
-  }
+  
 }
 
 
