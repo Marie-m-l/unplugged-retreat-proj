@@ -86,14 +86,60 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /*!-------- GENERAL STYLES --------*/
+   html {
+     font-size: 16px;
+   }
    
-   /*!--------BASE STYLES--------*/
-   /*!Same for home,  about, and faq pgs*/
-   .content-wrapper {
-     width: 90%;
-     margin: 50px 0;
-    }
-
+  body {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1em;
+   text-align: left;
+  }
+   
+  ul, 
+  ol {
+    list-style-type: none;
+  }
+   
+  a {
+    color: #e2e3ed;
+    text-decoration: none;
+  }
+   
+  h2 {
+   font-family: 'Poppins', sans-serif;
+   font-size: 1.875em;
+  }
+   
+  h3, 
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0;
+    font-size: 1.125em;
+  }
+   
+  p {
+    font-size: .875em;
+    line-height: 1.285;
+  }
+   
+  img {
+   
+  }
+   
+  figure {
+   
+  }
+   
+  address {
+   font-style: normal;
+  }
+   
+  .content-wrapper {
+   width: 90%;
+   margin: 50px 0;
+  }
    /*!--------BASE STYLES for Header & Footer--------*/
 
    header, 
@@ -103,14 +149,6 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
     }
-
-   main .content-wrapper {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-    }
-
    
    /*!--------Header Styles--------*/
 
@@ -127,6 +165,12 @@ textarea {
      flex-flow: row wrap;
      margin: 0;
     }
+
+    .header-divider {
+      width: 100%;
+      height: 1px;
+      margin: 10px 0 20px 0;
+    }
    
    header img.logo {
      display: flex;
@@ -135,12 +179,6 @@ textarea {
      flex-flow: row wrap;
      width: 100%;
     }
-
-   .header-divider {
-     width: 100%;
-     height: 1px;
-     margin: 10px 0 20px 0;
-   }
 
    header nav {
      display: flex;
@@ -181,21 +219,14 @@ textarea {
 
 
    footer .contact {
-     text-align: center;/*?not in solution code is it b/c flex-direction now column?*/
+     text-align: center;
+     /*? ^not in solution code is it b/c flex-direction now column?*/
      margin: 50px 0;
     }
-
-   footer .contact h4 {}
-
-   footer .contact address {}
 
    footer .social {
      text-align: center;
     }
-
-   footer .social h4 {}
-
-   footer .social address {}
 
    footer .social-icons {
      display: flex;
@@ -211,6 +242,7 @@ textarea {
 
     footer .copyright {
       margin: 20px 0;
+      text-align: center;
     }
   
     /*------Differences between Pages------*/
@@ -226,10 +258,6 @@ textarea {
      justify-content: center;
      flex-flow: row wrap;
     }
-
-   .hero-area .content-wrapper h1 {}
-
-   .hero-img {}
    
    /*!---Aside---*/
 
@@ -275,12 +303,14 @@ textarea {
      flex-flow: row wrap;
    }
 
+   .features h2 {
+     margin-bottom: 60px;
+   }
+
    .features article {
      width: 63%;
      margin: 30px 0;
    }
-
-   .features img {}
 
    .features .features-item-description {
       display: flex;
@@ -289,10 +319,6 @@ textarea {
       flex-flow: row wrap;
       text-align: center;
     }
-
-   .features h2 {
-     margin-bottom: 60px;
-   }
 
    features p {
      margin: 0;
@@ -320,14 +346,7 @@ textarea {
    .reviews h2 {
      margin-bottom: 40px;
    }
-/**
-   .reviews article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-   }
-*/
+
    .reviews article img {}
 
    /*group img for reviews does need to be centered for mobile*/
@@ -336,8 +355,6 @@ textarea {
      width: 55%;
      margin: 20px 0;
    }
-
-   .reviews article p {}
 
    /*!--------ABOUT PAGE--------*/
    /*!---Main---*/
@@ -351,10 +368,6 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
     }
-
-   .mission h1 {}
-
-   .mission-content {}
 
    .mission-content p {
      margin: 0;
@@ -384,13 +397,6 @@ textarea {
      flex-flow: row wrap;
     }
 
-   .contact-section h2 {}
-
-   .contact-section-content {}
-
-   /*Address*/
-   .contact-section-content h4 {}
-
    .contact-section-content p {
      margin: 0;
    }
@@ -414,18 +420,16 @@ textarea {
    }
 
    .faq h2 {
-     margin-top: 40px;
+     margin-bottom: 40px;
    }
 
    .faq-content {
      margin: 50px;
    }
 
-   .faq-content h4 {}
 
-
-   .faq-content p {
-     margin: 0;
+   .faq-content {
+     margin-bottom: 50px;
    }
 
 
@@ -637,10 +641,6 @@ textarea {
 
   /*! Faq */
 
-  header {
-    padding: 15px 0;
-  }
-
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -659,6 +659,10 @@ textarea {
   /*!Desktop Styles*/
 
   /*General Styles*/
+  header {
+    padding: 15px;
+  }
+
   .content-wrapper {
     max-width: 960px;
   }
