@@ -110,6 +110,7 @@ textarea {
   h2 {
    font-family: 'Poppins', sans-serif;
    font-size: 1.875em;
+   font-weight: 500;
   }
    
   h3, 
@@ -117,6 +118,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     margin: 20px 0;
     font-size: 1.125em;
+    font-weight: 500;
   }
    
   p {
@@ -124,13 +126,9 @@ textarea {
     line-height: 1.285;
   }
    
-  img {
+  img {}
    
-  }
-   
-  figure {
-   
-  }
+  figure {}
    
   address {
    font-style: normal;
@@ -140,159 +138,159 @@ textarea {
    width: 90%;
    margin: 50px 0;
   }
-   /*!--------BASE STYLES for Header & Footer--------*/
+/*!--------BASE STYLES for Header & Footer--------*/
 
-   header, 
-   footer {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-    }
-   
-   /*!--------Header Styles--------*/
-
-   /*---Same for home, about, and faq pgs*/
-   header {
-     padding: 15px 0;
-   }
-
-
-   header .content-wrapper {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-     margin: 0;
-    }
-
-    .header-divider {
-      width: 100%;
-      height: 1px;
-      margin: 10px 0 20px 0;
-    }
-   
-   header img.logo {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-     width: 100%;
-    }
-
-   header nav {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     flex-flow: row wrap;
-     width: 60%;
-    }
-
-   header nav ul {
-     display: flex;
-     justify-content: space-around;
-     list-style-type: none;
-     width: 100%;
-   }
-
-   header nav ul li {
-     display: inline-flex;
-   }
-     
-
-
-   /*!--------Footer Styles--------*/
-
-   /*---Same for home, about, and faq pgs---*/
-   footer {
-     flex-direction: column;
-   }
-   /**find out why column**/
-   footer p {
-     margin: 0;
-   }
-
-   footer .content-wrapper {
-     width: 55%;
-     margin: 50px 0;
-   }
-
-
-   footer .contact {
-     text-align: center;
-     /*? ^not in solution code is it b/c flex-direction now column?*/
-     margin: 50px 0;
-    }
-
-   footer .social {
-     text-align: center;
-    }
-
-   footer .social-icons {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-    }
-
-   footer .social-icons p {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-    }
-
-    footer .copyright {
-      margin: 20px 0;
-      text-align: center;
-    }
+  header, 
+  footer {
+    background-color: #202322;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   
-    /*------Differences between Pages------*/
-    /*!----------Mobile Styles----------*/
-   /*!--------HOME PAGE--------*/
-   /*!-----Main-----*/
-   
-   /*!---Hero Area---*/
+  /*!--------Header Styles--------*/
 
-   /*Section*/
-   .hero-area {
-     display: flex;
-     justify-content: center;
-     flex-flow: row wrap;
-    }
-   
-   /*!---Aside---*/
+  /*---Same for home, about, and faq pgs*/
+  header {
+    padding: 15px 0;
+  }
 
-   /*Aside*/
-   aside {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-    }
-   
 
-   aside.form-description {}
+  header .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0;
+  }
 
-   aside h3 {}
+  .header-divider {
+    background: #3a3a3a;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
+  }
+  
+  header img.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+  }
 
-   aside p {}
+  header nav {
+    font-size: 1.125em;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 60%;
+  }
 
-   aside .form {}
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
 
-   aside .form h3 {}
+  header nav ul li {
+    font-size: 1.125em;
+  }
+    
 
-   aside .form-input {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row wrap;
-    }
 
-   aside .form button {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-flow: row wrap;
-    }
+  /*!--------Footer Styles--------*/
+
+  /*---Same for home, about, and faq pgs---*/
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  /**find out why column**/
+  footer p {
+    margin: 0;
+  }
+
+  footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+  }
+
+
+  footer .contact {
+    margin-bottom: 50px;
+  }
+
+  footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer .social-icons p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .copyright {
+    margin: 20px 0;
+  }
+
+  /*------Differences between Pages------*/
+  /*!----------Mobile Styles----------*/
+  /*!--------HOME PAGE--------*/
+  /*!-----Main-----*/
+  
+  /*!---Hero Area---*/
+
+  /*Section*/
+  .hero-area {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  
+  /*!---Aside---*/
+
+  /*Aside*/
+  aside {
+    background-color: #527158;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  
+  aside .form{
+    margin-top: 30px;
+  }
+  
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+  }
+  
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
    /*!---Features---*/
 
@@ -317,11 +315,11 @@ textarea {
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
-      text-align: center;
     }
 
    features p {
      margin: 0;
+     text-align: center;
    }
 
 
@@ -337,7 +335,8 @@ textarea {
    /*!---Reviews---*/
 
    /*Section*/
-   section.reviews {
+   .reviews {
+     background-color: #2a423a;
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
@@ -345,6 +344,7 @@ textarea {
 
    .reviews h2 {
      margin-bottom: 40px;
+     line-height: 1;
    }
 
    .reviews article img {}
@@ -363,6 +363,7 @@ textarea {
 
    /*Section*/
    .mission {
+     background-color: #527158;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -391,6 +392,7 @@ textarea {
 
    /*Section*/
    .contact-section {
+     background-color: #2a423a;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -405,6 +407,7 @@ textarea {
 
    /*!---Main---*/
    .faq {
+     background-color: #527258;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -421,15 +424,16 @@ textarea {
 
    .faq h2 {
      margin-bottom: 40px;
+     line-height: 1;
    }
-
-   .faq-content {
-     margin: 50px;
-   }
-
 
    .faq-content {
      margin-bottom: 50px;
+   }
+
+
+   .faq-content h4 {
+     line-height: 1.333;
    }
 
 
@@ -531,6 +535,11 @@ textarea {
     margin: 100px 0;
   }
 
+  h2 {
+    font-size: 2.25em;
+    margin: 100px 0;
+  }
+
   /*Header*/
   header {
     justify-content: space-around;
@@ -540,6 +549,10 @@ textarea {
   header .content-wrapper {
     justify-content: space-between;
     width: 100%;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   header nav {
