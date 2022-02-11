@@ -558,8 +558,7 @@ flex-flow: row wrap;
     width: 30%;
   }
 
-  header 
-   {
+  header nav {
     width: 20%;
   }
 
