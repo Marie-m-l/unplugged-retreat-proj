@@ -128,13 +128,12 @@ p {
   line-height: 1.285;
 }
 
-img {}
+img {
+  width: 100%;
+}
 
 figure {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  margin: 0;
 }
 
 address {
@@ -170,8 +169,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-  background: url('../img/unpluggedlogo.png') center no-repeat #333;
-  background-size: cover;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -251,6 +256,7 @@ footer .copyright {
 .hero-area {
   background: url('../img/hero-img-jake-melara-30679-unsplash.jpg') center no-repeat #333;
   background-size: cover;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -356,8 +362,6 @@ flex-flow: row wrap;
   margin-bottom: 40px;
   line-height: 1;
 }
-
-.reviews article img {}
 
 /*group img for reviews does need to be centered for mobile*/
 
@@ -575,6 +579,10 @@ flex-flow: row wrap;
   /*! Home */
 
   /*Hero Area*/
+  .hero-area {
+    min-height: 600px;
+  }
+
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
@@ -622,6 +630,7 @@ flex-flow: row wrap;
     width: 85%;
   }
 
+  .reviews article figure, 
   .reviews article div {
     width: 49%;
   }
@@ -774,6 +783,10 @@ flex-flow: row wrap;
 
   .reviews article div {
     width: 42%;
+  }
+
+  .reviews h2 {
+    padding-bottom: 50px;
   }
 
   footer h4 {

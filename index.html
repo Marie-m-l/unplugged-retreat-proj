@@ -3,9 +3,10 @@
 <!--!HOME PAGE-->
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Unplugged</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <meta property="og:title" content="">
   <meta property="og:type" content="">
@@ -26,19 +27,17 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body class="content-wrapper"> <!--?does this even need to be a"content-wrapper // if I need to change-->
+<body>
 
   <header>
 
     <div class="content-wrapper">
-      <!--?if the img is in the css then should I take it out of here-->
-      <div class="content-wrapper">
-        <!--<figure>
-          <a href="#">
-            <img class="logo" src="img/unpluggedlogo.png" alt="unplugged-logo"/>
-          </a> 
-        </figure>--> 
-      </div>
+      
+      <figure>
+        <a href="#">
+          <img class="logo" src="img/unpluggedlogo.png" alt="unplugged-logo">
+        </a> 
+      </figure>
       
       <div class="header-divider"></div>
 
@@ -53,20 +52,13 @@
 
   </header>
 
-  <main class="content-wrapper">
+  <main>
 
     <section class="hero-area">
       <div class="content-wrapper">
           <h1>
             Retreat from your desk, return refreshed.
           </h1>
-
-        <div class="hero-img">
-         <!--<figure>
-            <img src="img/hero-img-jake-melara-30679-unsplash-72res.jpg" alt="unplugged-outdoor-img"/>
-          </figure>-->
-        </div>
-
       </div>
     </section> 
 
@@ -87,16 +79,15 @@
           <h3>
             Find out more
           </h3>
-          <div class="form-input">
-            <!--*TO DO= EMAIL ENTER SECTION AND TEXT WITHIN NEED TO BE edited BUT DON'T KNOW HOW yet-->
-            <input type="text" name="name" value="email address">
-            <!--*double check later if the download itinerary needs to be put twice or if the value is sufficient-->
-            <button type="button" value="Download Itinerary">DOWNLOAD ITINERARY</button>
-          </div>
+
+          <input type="text" name="name" value="name@email.com">
+
+          <button type="button" value="Download Itinerary">Download Itinerary</button>
+            <!--?solution code has <input type="button" value="Download Itinerary"> why different than what I have ^-->  
 
         </div>
 
-      </div> <!--content-wrapper ends-->
+      </div> <!--aside content-wrapper ends-->
 
     </aside> <!--aside ends-->
 
@@ -105,61 +96,60 @@
 
       <div class="content-wrapper">
 
-       <!--<figure>
-          <a href="#">
-            <img src="img/background-img-rawpixel-800820-unsplash-72res.jpg" alt="group-faded-background-behind-ameninities">
-          </a>
-        </figure>--> 
-  
-        <div class="content-wrapper"> 
-          <h2>
-            Have the work week you always dreamed of &mdash; without the bad wifi.
-          </h2>
+        <h2>
+          Have the work week you always dreamed of &mdash; without the bad wifi.
+        </h2>
 
-          <div class="features-items">
-            <article class="features-item-description">
-              <!--*TEPE ICON-->
-              <p>
-                Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.
-              </p>
-            </article>
-    
-            <article class="features-item-description">
-              <!--*BED ICON-->
-              <p>
-                12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.
-              </p>
-            </article>
-          
-            <article class="features-item-description">
-              <!--*utensils icon-->
-              <p>
-                Private chef team providing on demand meals &dash; just like your team kitchen. 
-              </p>
-            </article>
-    
-            <article class="features-item-description">
-              <!--*SHOW PRINT ICON-->
-              <p>
-                5 outdoor obstacle courses, including private beach 1&frasl;2 mile from bungalow.
-              </p>
-            </article>
-    
-            <article class="features-item-description">
-              <!--*SMILING ICON-->
-              <p>
-                Retreat faclitator to manage your day to day activities so you all get a chance to reset.
-              </p>
-            </article>
-    
-            <article class="features-item-description">
-              <!--*WIFI ICON-->
-              <p>
-                Dedicated computer room for times that you must wifi.
-              </p>
-            </article>
-          </div>
-        </div>
+        <div class="features-items">
+          <article class="features-item-description">
+            <!--*TEPE ICON-->
+            <p class="fontawesome-icon"></p>
+            <p>
+              Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.
+            </p>
+          </article>
+
+          <article class="features-item-description">
+            <!--*BED ICON-->
+            <p class="fontawesome-icon"></p>
+            <p>
+              12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.
+            </p>
+          </article>
+        
+          <article class="features-item-description">
+            <!--*utensils icon-->
+            <p class="fontawesome-icon"></p>
+            <p>
+              Private chef team providing on demand meals &dash; just like your team kitchen. 
+            </p>
+          </article>
+
+          <article class="features-item-description">
+            <!--*SHOW PRINT ICON-->
+            <p class="fontawesome-icon"></p>
+            <p>
+              5 outdoor obstacle courses, including private beach 1&frasl;2 mile from bungalow.
+            </p>
+          </article>
+
+          <article class="features-item-description">
+            <!--*SMILING ICON-->
+            <p class="fontawesome-icon"></p>
+            <p>
+              Retreat faclitator to manage your day to day activities so you all get a chance to reset.
+            </p>
+          </article>
+
+          <article class="features-item-description">
+            <!--*WIFI ICON-->
+            <p class="fontawesome-icon"></p>
+            <p>
+              Dedicated computer room for times that you must wifi.
+            </p>
+          </article>
+
+        </div> <!--features-items end-->
 
 
       </div> <!--content-wrapper ends-->
@@ -169,33 +159,30 @@
 
     <section class="reviews">
       <div class="content-wrapper">
+        <h2>
+          Be a better team in 5 days, like these.
+        </h2>  
 
-        <div> 
-          <h2>
-            Be a better team in 5 days, like these.
-          </h2>  
-        </div>
+        <article>
+          <!--reviews img-->
+          <figure>
+            <a href="#"><img src="img/group-img-omar-lopez-296944-unsplash-72res.jpg" alt="group-of-women-at-prev-retreat"></a>
+          </figure>
 
-        <article id="review-example">
-          <div id="review-img">
-            <figure>
-              <a href="#"><img src="img/group-img-omar-lopez-296944-unsplash-72res.jpg" alt="group-of-women-at-prev-retreat"></a>
-            </figure>
-          </div>
-          
-<!--?maybe the div abv that I thought was supposed to be in on li 154 is here, will look into once we are adding img b/c I + img earlier than the step-->
-          <div id="review-content">
+          <div>
+            <!--reviews content-->
             <h3>
               LaCrue Bottling Co.<br> October 2017
             </h3>
+            <!--?solution code doesn't have a <br> in theirs-->
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute urure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
           </div>
   
         </article>
-      </div>
-    </section>
+      </div> <!--content-wrapper ends-->
+    </section> <!--reviews ends-->
 
   </main> <!--main wrapper ends-->
 
