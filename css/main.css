@@ -310,11 +310,11 @@ input[type=button] {
 
 /*Section*/
 .features {
+  background: url('../img/background-img-rawpixel-800820-unsplash-72res.jpg') center no-repeat #333;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background: url('../img/background-img-rawpixel-800820-unsplash-72res.jpg') center no-repeat #333;
-  background-size: cover;
 }
 
 .features h2 {
@@ -333,21 +333,16 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
 features p {
-  margin: 0;
   text-align: center;
+  margin: 0;
 }
 
-
-/**+ features img/icon specifier once added to html*/
-/*
-.features p {
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-flow: row wrap;
-}
-*/
 /*!---Reviews---*/
 
 /*Section*/
