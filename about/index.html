@@ -17,7 +17,7 @@
   <!-- Place favicon.ico in the root directory -->
   
   <!--Google Web Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:500,700" rel="stylesheet">
   
   <!--CSS stylesheets-->
   <link rel="stylesheet" href="../css/normalize.css">
@@ -47,7 +47,7 @@
         <ul>
           <li><a href="../index.html" target="_blank">HOME</a></li>
           <!--!<li><a href="../about/index.html" target="_blank">ABOUT</a></li>-->
-          <li><a href="faq/index.html" target="_blank">FAQ</a></li>
+          <li><a href="../faq/index.html" target="_blank">FAQ</a></li>
         </ul>
       </nav>
 
@@ -79,6 +79,7 @@
     </section> <!--mission section end--> <!--?why is the note supposed to be contact info for the mission section end? as shown in solution code-->
 
     <section class="map">
+      <h6>See where we are on the map!</h6>
         <figure>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6988.53491563303!2d-88.43614797909224!3d42.56979406927854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88058a4f516cf873%3A0x637400e104880215!2sBig%20Foot%20Beach%20State%20Park!5e0!3m2!1sen!2sus!4v1641364547739!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </figure>
@@ -92,33 +93,40 @@
           Contact us, because you all need this.
         </h2>
 
-        <address class="contact-section-content">
+        <div class="contact-section-content">
           <div>
             <h4>
               General Information
             </h4>
-            <p>
-              333 Main St, Lake Geneva, WI 53147
-              <br>
-              555-555-5555
-              <br>
-              hello@unplugged.com
-            </p>
-          </div>
+            <address>
+              <p>
+                333 Main St, Lake Geneva, WI 53147
+                <br>
+                555-555-5555
+                <br>
+                hello@unplugged.com
+              </p>
+            </address>  
 
+          </div>
+          
           <div>
             <h4>
               Chat with a Facilitator
             </h4>
-
-            <p>
-              555-555-5555
-              <br>
-              facilitator@unplugged.com
-            </p>
+            
+            <address>
+              <p>
+                555-555-5555
+                <br>
+                facilitator@unplugged.com
+              </p>
+            </address>
+            
           </div>
 
-        </address>  
+        </div> <!--content-section-content end-->
+
       </div> <!--content-content wrapper end-->
     </section> <!--contact-section end-->
 

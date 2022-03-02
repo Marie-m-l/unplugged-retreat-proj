@@ -201,6 +201,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  padding: 0;
 }
 
 header nav ul li {
@@ -390,6 +391,10 @@ input[type=button] {
 /*!---Map---*/
 
 /*Section*/
+.map h6 {
+  display: none;
+}
+
 .map figure {
   position: relative;
   padding-bottom: 125%;
