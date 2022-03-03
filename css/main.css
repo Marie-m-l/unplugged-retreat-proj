@@ -84,6 +84,17 @@ textarea {
 }
 
 /* ==========================================================================
+Browers Upgrase Prompt
+============================================================================= */
+
+.browserupgrade {
+  margin: .2em 0;
+  background: #ccc;
+  color: #000;
+  padding: .2em 0;
+}
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 /*!-------- GENERAL STYLES --------*/
@@ -102,6 +113,8 @@ color: #e2e3ed;
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -113,6 +126,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3, 
@@ -202,7 +216,6 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  padding: 0;
 }
 
 header nav ul li {
@@ -371,8 +384,6 @@ input[type=button] {
   margin-bottom: 40px;
   line-height: 1;
 }
-
-/*group img for reviews does need to be centered for mobile*/
 
 .reviews article h3 {
   width: 55%;
@@ -785,7 +796,7 @@ input[type=button] {
   /*Hero*/
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
   /*Aside*/
