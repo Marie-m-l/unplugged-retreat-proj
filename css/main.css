@@ -94,7 +94,7 @@ html {
 
 body {
 font-family: 'Open Sans', sans-serif;
-font-size: 1em;
+font-size: 1.1em;
 text-align: left;
 color: #e2e3ed;
 }
@@ -144,6 +144,7 @@ font-style: normal;
 width: 90%;
 margin: 50px 0;
 }
+
 /*!--------BASE STYLES for Header & Footer--------*/
 
 header, 
