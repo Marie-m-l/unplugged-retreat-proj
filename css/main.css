@@ -105,7 +105,7 @@ html {
 
 body {
 font-family: 'Open Sans', sans-serif;
-font-size: 1.1em;
+font-size: 1em;
 text-align: left;
 color: #e2e3ed;
 }
@@ -657,6 +657,7 @@ input[type=button] {
   .reviews article {
     display: flex;
     justify-content: space-between;
+    align-content: stretch;
   }
 
   .reviews h2 {
@@ -668,7 +669,7 @@ input[type=button] {
     width: 49%;
   }
 
-  .reviews h3 {
+  .reviews article h3 {
     width: 75%;
     margin: 0;
   }
