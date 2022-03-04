@@ -828,6 +828,11 @@ input[type=button] {
     padding-bottom: 50px;
   }
 
+  .reviews article {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .reviews article div {
     width: 42%;
   }
